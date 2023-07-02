@@ -1,4 +1,3 @@
-import React from "react";
 // countup
 import CountUp from "react-countup";
 // intersection observer hook
@@ -37,13 +36,13 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
-              I'm a passionate Web Developer with expertise in the MERN stack.
+              I am a passionate Web Developer with expertise in the MERN stack.
             </h3>
-            <p className="mb-6">
+            <p className="mb-6 text-justify">
               From frontend to backend, I deliver exceptional user experiences
               and robust functionality. As a Web Designer, I create visually
               appealing and user-friendly interfaces. With freelancing
-              experience, I help clients achieve their online goals. Let's build
+              experience, I help clients achieve their online goals. Let`s build
               something amazing together!
             </p>
             {/* stats */}

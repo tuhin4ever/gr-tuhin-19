@@ -1,4 +1,4 @@
-import React from "react";
+
 // motion
 import { motion } from "framer-motion";
 // variants
@@ -203,7 +203,7 @@ const Work = () => {
               <h1 className="h2 text-xl text-accent font-bold">Details</h1>
 
               <p>
-                I have completed a website called "Art Adventure" for summer
+                I have completed a website called Art Adventure for summer
                 school camps. <br /> The website offers various features to
                 enhance the experience for students, instructors, and admins.{" "}
                 <br /> Students can easily enroll in summer school camps by

@@ -1,4 +1,4 @@
-import React from "react";
+
 // images
 import Image from "../assets/profile.jpg";
 // icons

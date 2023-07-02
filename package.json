@@ -7,6 +7,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "emailjs-com": "^3.2.0",
+    "firebase": "^9.23.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-glitch-text": "^0.1.81",
@@ -43,7 +44,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "daisyui": "^3.1.7",
+    "eslint-plugin-react-refresh": "^0.4.1",
     "framer-motion": "^8.5.5",
     "react-countup": "^6.3.2",
     "react-icons": "^4.7.1",

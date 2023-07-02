@@ -1,4 +1,3 @@
-import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import {
@@ -10,7 +9,7 @@ import {
   FaLocationArrow,
 } from "react-icons/fa";
 import emailjs from "emailjs-com";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Swal from "sweetalert2";
 
 const Contact = () => {
@@ -71,7 +70,7 @@ const Contact = () => {
                 Get in touch
               </h4>
               <h2 className="text-[45px] text-rose-900 lg:text-[90px] leading-none mb-12">
-                let's Work <br /> together!
+                let`s Work <br /> together!
               </h2>
               <div className="ml-2 my-5 border-2 border-double border-green-600 max-w-xs mx-auto text-center bg-white opacity-60 cursor-pointer shadow-lg rounded-lg overflow-hidden">
                 <div className="px-6 py-8">
@@ -103,9 +102,10 @@ const Contact = () => {
                     <div className="flex items-center">
                       <div className="bg-gray-300 rounded-full p-2 flex gap-2 text-gray-600">
                         <FaLocationArrow className="w-4 h-4" />
-                        
                       </div>
-                      <span className="ml-2 text-gray-800">Bangladeash, khulna </span>
+                      <span className="ml-2 text-gray-800">
+                        Bangladeash, khulna{" "}
+                      </span>
                     </div>
                   </div>
                 </div>

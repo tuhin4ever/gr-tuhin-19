@@ -1,8 +1,8 @@
-import React from "react";
 // import logo from "../assets/logo.svg";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
+
 import Glitch from "react-glitch-text";
+// eslint-disable-next-line
 const Header = () => {
   return (
     <header className="py-8" style={{ position: "relative", zIndex: "9999" }}>
@@ -18,8 +18,6 @@ const Header = () => {
           <a
             href="/Golam_Rasul_Full Stack Developer.pdf"
             download={true}
-            smooth
-            duration={500}
             className="group btn btn-sm -mt-5"
           >
             Resume
